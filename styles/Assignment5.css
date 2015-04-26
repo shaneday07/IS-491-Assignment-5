@@ -1,0 +1,22 @@
+section.customers
+{
+    display: inline;
+    display: none;
+}
+
+section.history
+{
+    display: inline;
+    display: none;
+}
+
+section.orders
+{
+    display: inline;
+    display: none;
+}
+
+body
+{
+    background-color: rgb(101, 101, 92);
+}

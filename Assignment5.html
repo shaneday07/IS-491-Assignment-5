@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+    
+<head>
+    <title>Shane Day Assignment 5</title>
+    <script src="js/Assignment5.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/Assignment5.css"/>   
+</head>
+
+<body>
+
+<center>
+   <h1>Assignment 5</h1>
+   
+    <select onchange="Change()" id="menu">
+        <option>Choose a section</option>
+        <option>Customer List</option>
+        <option>Customer Order History</option>
+        <option>Customer Orders</option>
+    </select>
+    
+    <section  id="customers" class="customers">
+        <Center><button onclick="Render()">Get Customer List</button></Center>
+        <div id="table1"></div>
+    </section>
+    
+    <section id="history" class="history">
+        <hr><label>Enter Customer ID:</label>
+        <input type="text" id="cid">
+            <br>
+                <button onclick="History()" id="historybutton">Show Order History</button>
+                <div id="table2"></div>
+    </section>
+    
+    <section id="orders" class="orders">
+        <hr><label>Enter Customer ID:</label>
+        <input type="text" id="cid2">
+            <br>
+                <button onclick="Orders()" id="ordersbutton">Show Customer Orders</button>
+                <div id="table3"></div>
+    </section>   
+</center>
+
+</body>
+</html>
